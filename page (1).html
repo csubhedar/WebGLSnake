@@ -1,0 +1,21 @@
+<html>
+  	<head>
+	 <script type="text/javascript" src="snakeScript.js" ></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      </head>
+  	 <body>
+          <canvas id="playArea"  style="border:2px solid;margin: 5px; " ></canvas>
+	<div align ="center">
+	<input id="score"  value=0 style="text-align:center;" readonly/>
+	</div>
+	<script>
+			var can=document.getElementById("playArea");
+			can.width = window.innerWidth - 20;
+			can.height = window.innerHeight - 50;
+			init();
+	</script>
+		
+          </body>
+ </html>
